@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" fill="#f7fafc"/>
+  <text x="500" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#152238">Traffic Light Controller</text>
+  <rect x="280" y="105" width="440" height="260" rx="12" fill="#ffffff" stroke="#152238" stroke-width="3"/>
+  <text x="500" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#152238">FSM + Counter</text>
+  <line x1="330" y1="178" x2="670" y2="178" stroke="#d5dde8" stroke-width="2"/>
+  <text x="500" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#344054">GREEN  ->  YELLOW  ->  RED</text>
+  <text x="500" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#344054">State register and timing counter</text>
+  <text x="500" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#344054">Synchronous active-high reset</text>
+  <line x1="110" y1="180" x2="280" y2="180" stroke="#247ba0" stroke-width="4"/>
+  <polygon points="280,180 264,172 264,188" fill="#247ba0"/>
+  <text x="110" y="158" font-family="Arial, sans-serif" font-size="19" fill="#152238">clk</text>
+  <line x1="110" y1="280" x2="280" y2="280" stroke="#247ba0" stroke-width="4"/>
+  <polygon points="280,280 264,272 264,288" fill="#247ba0"/>
+  <text x="110" y="258" font-family="Arial, sans-serif" font-size="19" fill="#152238">reset</text>
+  <line x1="720" y1="170" x2="890" y2="170" stroke="#d1495b" stroke-width="4"/>
+  <polygon points="890,170 874,162 874,178" fill="#d1495b"/>
+  <text x="760" y="150" font-family="Arial, sans-serif" font-size="19" fill="#152238">red</text>
+  <line x1="720" y1="235" x2="890" y2="235" stroke="#e9c46a" stroke-width="4"/>
+  <polygon points="890,235 874,227 874,243" fill="#e9c46a"/>
+  <text x="760" y="215" font-family="Arial, sans-serif" font-size="19" fill="#152238">yellow</text>
+  <line x1="720" y1="300" x2="890" y2="300" stroke="#2a9d8f" stroke-width="4"/>
+  <polygon points="890,300 874,292 874,308" fill="#2a9d8f"/>
+  <text x="760" y="280" font-family="Arial, sans-serif" font-size="19" fill="#152238">green</text>
+  <text x="500" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#52606d">Clock -> FSM state -> Counter duration -> Light outputs</text>
+</svg>

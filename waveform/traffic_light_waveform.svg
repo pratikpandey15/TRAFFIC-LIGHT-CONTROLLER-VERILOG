@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" fill="#101820"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#f4f7fb">Traffic Light Controller Waveform Reference</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#f4f7fb">
+    <text x="35" y="105">clk</text><text x="35" y="180">reset</text><text x="35" y="255">current_state</text><text x="35" y="330">cycle_count</text><text x="35" y="405">red</text><text x="35" y="480">yellow</text><text x="35" y="555">green</text>
+  </g>
+  <g stroke="#34495e" stroke-width="1">
+    <line x1="180" y1="70" x2="1160" y2="70"/><line x1="180" y1="145" x2="1160" y2="145"/><line x1="180" y1="220" x2="1160" y2="220"/><line x1="180" y1="295" x2="1160" y2="295"/><line x1="180" y1="370" x2="1160" y2="370"/><line x1="180" y1="445" x2="1160" y2="445"/><line x1="180" y1="520" x2="1160" y2="520"/>
+  </g>
+  <g stroke="#8395a7" stroke-width="2" fill="none">
+    <path d="M180 120V80H220V120H260V80H300V120H340V80H380V120H420V80H460V120H500V80H540V120H580V80H620V120H660V80H700V120H740V80H780V120H820V80H860V120H900V80H940V120H980V80H1020V120H1060V80H1100V120H1140V80"/>
+    <path d="M180 160H340V205H1140" stroke="#e76f51" stroke-width="4"/>
+    <path d="M180 275H580V240H740V275H1140" stroke="#e9c46a" stroke-width="4"/>
+    <path d="M180 350H220V340H260V330H300V320H340V310H380V300H420V350H460V340H500V330H540V350H580V340H620V330H660V350H700V340H740V330H780V350H820V340H860V330H900V350H940V340H980V330H1020V350H1060V340H1100V330H1140" stroke="#8ecae6" stroke-width="4"/>
+    <path d="M180 445H580V370H740V445H1140" stroke="#e76f51" stroke-width="4"/>
+    <path d="M180 520H740V445H900V520H1140" stroke="#e9c46a" stroke-width="4"/>
+    <path d="M180 595H1140V520H580V595H1140" stroke="#2a9d8f" stroke-width="4"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#c9d6e3"><text x="190" y="260">GREEN</text><text x="595" y="260">YELLOW</text><text x="755" y="260">RED</text><text x="915" y="260">GREEN</text></g>
+</svg>
