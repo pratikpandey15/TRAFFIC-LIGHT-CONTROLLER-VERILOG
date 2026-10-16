@@ -2,12 +2,7 @@
 
 <p align="center">
 	<strong>A compact, synthesizable RTL design for a timed traffic-light FSM</strong><br>
-	<sub>Finite-state machine  • Sequential logic • Counter-based timing • Self-checking simulation</sub>
-</p>
-
-## At a Glance
-
-This project models a single-road traffic light controller with a synchronous Moore finite-state machine. The controller cycles through green, yellow, and red, holding each state for a configurable number of clock cycles.
+	<sub>Finite-state machine  • Sequential logic • Counter-based 
 
 ```text
 				5 cycles       2 cycles       5 cycles
