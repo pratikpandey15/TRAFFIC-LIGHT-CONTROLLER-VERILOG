@@ -2,7 +2,7 @@
 
 <p align="center">
 	<strong>A compact, synthesizable RTL design for a timed traffic-light FSM</strong><br>
-	<sub>Finite-state machine design • Sequential logic • Counter-based timing • Self-checking simulation</sub>
+	<sub>Finite-state machine  • Sequential logic • Counter-based timing • Self-checking simulation</sub>
 </p>
 
 ## At a Glance
