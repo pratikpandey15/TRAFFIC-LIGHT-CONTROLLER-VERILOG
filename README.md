@@ -1,12 +1,4 @@
-# Traffic Light Controller in Verilog
 
-<p align="center">
-	<strong>A compact, synthesizable RTL design for a timed traffic-light FSM</strong><br>
-	<sub>Finite-state machine  • Sequential logic • Counter-based 
-
-```text
-				5 cycles       2 cycles       5 cycles
-GREEN ------------> YELLOW -------> RED
 	^                                  |
 	|__________________________________|
 ```
